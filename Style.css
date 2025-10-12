@@ -74,3 +74,26 @@ nav img{
     background: transparent;
     position: relative;
 }
+.hero-btn:hover{
+    border: 1px solid #d1d72f;
+    background: #f44336;
+    transition: 1s;
+}
+@media(max-width: 700){
+    .text-box h1{
+    font-size: 20px;
+}
+.nav-links ul li{
+    display: block;
+}
+.nav-links{
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 100px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+}
+}
