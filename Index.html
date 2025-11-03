@@ -19,7 +19,8 @@
     <section class="header">
       <nav>
         <a href="Index.html"><img src="Images/eduford_img/logo.png" /></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT</a></li>
@@ -29,7 +30,7 @@
           </ul>
         </div>
 
-        <i class="fa fa-bars"></i>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
 
       <div class="text-box">
@@ -43,5 +44,7 @@
         <a href="https://www.harvard.edu/" target="_blank" class="hero-btn">visit Our dedicated branch Harvard for more!</a>
       </div>
     </section>
+
+    <script src="Script.js"></script>
   </body>
 </html>
